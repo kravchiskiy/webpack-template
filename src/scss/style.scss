@@ -1,0 +1,12 @@
+@import './style.css';
+body {
+	background: #ccc;
+}
+h1::after {
+	content: '';
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	background: url('../../public/images/main.jpeg');
+	object-fit: cover;
+}
